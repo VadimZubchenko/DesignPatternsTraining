@@ -1,6 +1,6 @@
 # DesignPatternsTraining
 
-## We will start from 8 more importens patters from 23.
+## We will start from 8 more importens patters from 23 available.
 
 - Factory
 - Builder

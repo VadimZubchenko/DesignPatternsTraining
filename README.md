@@ -1,5 +1,7 @@
 # DesignPatternsTraining
 
+author: Vadim Zubchenko
+
 ## We will start from 8 more importens patters from 23 available.
 
 - Factory
@@ -11,4 +13,5 @@
 - Adapter
 - Facade
 - Bridge
+
 

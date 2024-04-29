@@ -10,4 +10,5 @@
 - Strategy
 - Adapter
 - Facade
+- Bridge
 

@@ -17,11 +17,11 @@ date of start: 29.3.2024
 
 ### Factory
 
-The Factory Method pattern suggests that you replace direct object construction calls (using the new operator) with calls to a special factory method. Don’t worry: the objects are still created via the new operator, but it’s being called from within the factory method. Objects returned by a factory method are often referred to as products.
+- The Factory Method pattern suggests that you replace direct object construction calls (using the new operator) with calls to a special factory method. Don’t worry: the objects are still created via the new operator, but it’s being called from within the factory method. Objects returned by a factory method are often referred to as products.
 
 ### Builder
 
-The Builder pattern suggests that you extract the object construction code out of its own class and move it to separate objects called builders.
+- The Builder pattern suggests that you extract the object construction code out of its own class and move it to separate objects called builders.
 
 ### Singleton
 

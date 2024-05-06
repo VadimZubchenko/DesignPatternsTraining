@@ -21,11 +21,27 @@ date of start: 29.3.2024
 
 ### Builder
 
-- The Builder pattern suggests that you extract the object construction code out of its own class and move it to separate objects called builders.
+- The Factory Method pattern suggests that you replace direct object construction 
+calls (using the new operator) with calls to a special factory method. Don’t 
+worry: the objects are still created via the new operator, but it’s being called 
+from within the factory method. Objects returned by a factory method are often 
+referred to as products
 
 ### Singleton
 
 All implementations of the Singleton have these two steps in common:
 
-- Make the default constructor private, to prevent other objects from using the new operator with the Singleton class.
-- Create a static creation method that acts as a constructor. Under the hood, this method calls the private constructor to create an object and saves it in a static field. All following calls to this method return the cached object.
+- Make the default constructor private, to prevent other objects from using the 
+new operator with the Singleton class. 
+
+- Create a static creation method that acts 
+as a constructor. Under the hood, this method calls the private constructor to 
+create an object and saves it in a static field. All following calls to this 
+method return the cached object.
+
+### Observer
+
+- The object that has some interesting state is often called subject, but since 
+it’s also going to notify other objects about the changes to its state, we’ll call 
+it publisher. All other objects that want to track changes to the publisher’s 
+state are called subscribers.
